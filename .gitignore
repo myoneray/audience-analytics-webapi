@@ -1,0 +1,12 @@
+.idea
+node_modules
+localtest
+sftp-config.json
+.DS_Store
+README.html
+build
+uploads
+src/doc/*.html
+*sublime*
+files/201*
+webapi.zip

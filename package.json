@@ -1,0 +1,57 @@
+{
+  "name": "audience-analytics-webapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "debug": "nodemon --debug --exec babel-node src/app.js",
+    "start": "pm2 start process.production.json --env production",
+    "init": "babel-node src/modules/bin/init.tags",
+    "sync": "babel-node src/modules/bin/sync/sync.js",
+    "build": "gulp clean && babel src --ignore src/localtest -d build/src && gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.chiefclouds.cn/dataservice/audience-analytics-webapi.git"
+  },
+  "author": "yuesun",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.9.1",
+    "babel-runtime": "^6.9.2",
+    "bunyan": "^1.8.1",
+    "chai": "^3.5.0",
+    "chance": "^1.0.3",
+    "co": "^4.6.0",
+    "cron": "^1.1.0",
+    "csvtojson": "^0.5.14",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "iconv-lite": "^0.4.13",
+    "joi": "^8.4.2",
+    "json-2-csv": "^2.0.22",
+    "jszip": "^3.0.0",
+    "kexcel": "^3.0.12",
+    "koa": "^2.0.0",
+    "koa-body": "^1.4.0",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "0.0.16",
+    "koa-error": "^2.1.0",
+    "koa-router": "^7.0.1",
+    "lodash": "^4.13.1",
+    "md5": "^2.1.0",
+    "mocha": "^2.5.3",
+    "moment": "^2.13.0",
+    "mysql": "^2.11.1",
+    "request": "^2.72.0",
+    "rimraf": "^2.5.2",
+    "sequelize": "^3.23.3",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.8.0"
+  }
+}

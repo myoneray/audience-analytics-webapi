@@ -1,0 +1,565 @@
+{
+    "resCode": "0000",
+    "resMsg": "提交成功",
+    "statCode": "00000",
+    "statMsg": "提交成功",
+    "sign": "5A80DBD320DFA5D0E044E1C9D7D99B89",
+    "data": {
+        "tags": [
+            {
+                "uid": "S0001",
+                "name": "消费性别",
+                "version": "V0.0.1",
+                "typeUid": "T0001",
+                "typeName": "个人基础信息",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "男",
+                        "value": "男"
+                    },
+                    {
+                        "key": "女",
+                        "value": "女"
+                    }
+                ]
+            },
+            {
+                "uid": "S0002",
+                "name": "消费年龄",
+                "version": "V0.0.1",
+                "typeUid": "T0001",
+                "typeName": "个人基础信息",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "青年",
+                        "value": "青年"
+                    },
+                    {
+                        "key": "中年",
+                        "value": "中年"
+                    },
+                    {
+                        "key": "老年",
+                        "value": "老年"
+                    }
+                ]
+            },
+            {
+                "uid": "S0003",
+                "name": "是否已婚",
+                "version": "V0.0.1",
+                "typeUid": "T0001",
+                "typeName": "个人基础信息",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "是",
+                        "value": "是"
+                    },
+                    {
+                        "key": "否",
+                        "value": "否"
+                    }
+                ]
+            },
+            {
+                "uid": "S0004",
+                "name": "个人月收入",
+                "version": "V0.0.1",
+                "typeUid": "T0002",
+                "typeName": "资产状况",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "低",
+                        "value": "低"
+                    },
+                    {
+                        "key": "中",
+                        "value": "中"
+                    },
+                    {
+                        "key": "高",
+                        "value": "高"
+                    }
+                ]
+            },
+            {
+                "uid": "S0005",
+                "name": "是否有房",
+                "version": "V0.0.1",
+                "typeUid": "T0002",
+                "typeName": "资产状况",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "是",
+                        "value": "是"
+                    },
+                    {
+                        "key": "否",
+                        "value": "否"
+                    }
+                ]
+            },
+            {
+                "uid": "S0006",
+                "name": "房产得分",
+                "version": "V0.0.1",
+                "typeUid": "T0002",
+                "typeName": "资产状况",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "低",
+                        "value": "低"
+                    },
+                    {
+                        "key": "中",
+                        "value": "中"
+                    },
+                    {
+                        "key": "高",
+                        "value": "高"
+                    }
+                ]
+            },
+            {
+                "uid": "S0007",
+                "name": "是否有车",
+                "version": "V0.0.1",
+                "typeUid": "T0002",
+                "typeName": "资产状况",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "是",
+                        "value": "是"
+                    },
+                    {
+                        "key": "否",
+                        "value": "否"
+                    }
+                ]
+            },
+            {
+                "uid": "S0008",
+                "name": "车品牌",
+                "version": "V0.0.1",
+                "typeUid": "T0002",
+                "typeName": "资产状况",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "玛莎拉蒂",
+                        "value": "玛莎拉蒂"
+                    },
+                    {
+                        "key": "法拉利",
+                        "value": "法拉利"
+                    }
+                ]
+            },
+            {
+                "uid": "S0009",
+                "name": "车综合等级",
+                "version": "V0.0.1",
+                "typeUid": "T0002",
+                "typeName": "资产状况",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "低",
+                        "value": "低"
+                    },
+                    {
+                        "key": "中",
+                        "value": "中"
+                    },
+                    {
+                        "key": "高",
+                        "value": "高"
+                    }
+                ]
+            },
+            {
+                "uid": "S0010",
+                "name": "车档次-分品牌",
+                "version": "V0.0.1",
+                "typeUid": "T0002",
+                "typeName": "资产状况",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "维修",
+                        "value": "维修"
+                    },
+                    {
+                        "key": "普通",
+                        "value": "普通"
+                    },
+                    {
+                        "key": "高档",
+                        "value": "高档"
+                    },
+                    {
+                        "key": "未知",
+                        "value": "未知"
+                    }
+                ]
+            },
+            {
+                "uid": "S0011",
+                "name": "银行卡等级",
+                "version": "V0.0.1",
+                "typeUid": "T0002",
+                "typeName": "资产状况",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "未知",
+                        "value": "未知"
+                    },
+                    {
+                        "key": "普卡",
+                        "value": "普卡"
+                    },
+                    {
+                        "key": "银卡",
+                        "value": "银卡"
+                    },
+                    {
+                        "key": "金卡",
+                        "value": "金卡"
+                    },
+                    {
+                        "key": "白金卡",
+                        "value": "白金卡"
+                    },
+                    {
+                        "key": "钻石卡",
+                        "value": "钻石卡"
+                    },
+                    {
+                        "key": "无限卡",
+                        "value": "无限卡"
+                    }
+                ]
+            },
+            {
+                "uid": "S0012",
+                "name": "消费综合指数",
+                "version": "V0.0.1",
+                "typeUid": "T0003",
+                "typeName": "消费指数",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "一档",
+                        "value": "小于等于100"
+                    },
+                    {
+                        "key": "二档",
+                        "value": "100-500"
+                    },
+                    {
+                        "key": "三档",
+                        "value": "500-1000"
+                    },
+                    {
+                        "key": "四档",
+                        "value": "1000-3000"
+                    },
+                    {
+                        "key": "五档",
+                        "value": "3000以上"
+                    }
+                ]
+            },
+            {
+                "uid": "S0013",
+                "name": "工作日消费指数",
+                "version": "V0.0.1",
+                "typeUid": "T0003",
+                "typeName": "消费指数",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "低",
+                        "value": "低"
+                    },
+                    {
+                        "key": "中",
+                        "value": "中"
+                    },
+                    {
+                        "key": "高",
+                        "value": "高"
+                    }
+                ]
+            },
+            {
+                "uid": "S0014",
+                "name": "夜间消费指数",
+                "version": "V0.0.1",
+                "typeUid": "T0003",
+                "typeName": "消费指数",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "低",
+                        "value": "低"
+                    },
+                    {
+                        "key": "中",
+                        "value": "中"
+                    },
+                    {
+                        "key": "高",
+                        "value": "高"
+                    }
+                ]
+            },
+            {
+                "uid": "S0015",
+                "name": "境外消费指数",
+                "version": "V0.0.1",
+                "typeUid": "T0004",
+                "typeName": "消费地点",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "低",
+                        "value": "低"
+                    },
+                    {
+                        "key": "中",
+                        "value": "中"
+                    },
+                    {
+                        "key": "高",
+                        "value": "高"
+                    }
+                ]
+            },
+            {
+                "uid": "S0016",
+                "name": "消费商圈",
+                "version": "V0.0.1",
+                "typeUid": "T0004",
+                "typeName": "消费地点",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "上海_日月光商圈",
+                        "value": "上海_日月光商圈"
+                    },
+                    {
+                        "key": "北京_三里屯商圈",
+                        "value": "北京_三里屯商圈"
+                    }
+                ]
+            },
+            {
+                "uid": "S0017",
+                "name": "读书爱好者",
+                "version": "V0.0.1",
+                "typeUid": "T0005",
+                "typeName": "兴趣爱好",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "低",
+                        "value": "低"
+                    },
+                    {
+                        "key": "中",
+                        "value": "中"
+                    },
+                    {
+                        "key": "高",
+                        "value": "高"
+                    }
+                ]
+            },
+            {
+                "uid": "S0018",
+                "name": "吃货",
+                "version": "V0.0.1",
+                "typeUid": "T0005",
+                "typeName": "兴趣爱好",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "低",
+                        "value": "低"
+                    },
+                    {
+                        "key": "中",
+                        "value": "中"
+                    },
+                    {
+                        "key": "高",
+                        "value": "高"
+                    }
+                ]
+            },
+            {
+                "uid": "S0019",
+                "name": "数码极客",
+                "version": "V0.0.1",
+                "typeUid": "T0005",
+                "typeName": "兴趣爱好",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "低",
+                        "value": "低"
+                    },
+                    {
+                        "key": "中",
+                        "value": "中"
+                    },
+                    {
+                        "key": "高",
+                        "value": "高"
+                    }
+                ]
+            },
+            {
+                "uid": "S0020",
+                "name": "体育健身爱好者",
+                "version": "V0.0.1",
+                "typeUid": "T0005",
+                "typeName": "兴趣爱好",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "低",
+                        "value": "低"
+                    },
+                    {
+                        "key": "中",
+                        "value": "中"
+                    },
+                    {
+                        "key": "高",
+                        "value": "高"
+                    }
+                ]
+            },
+            {
+                "uid": "S0021",
+                "name": "商旅人士-综合得分",
+                "version": "V0.0.1",
+                "typeUid": "T0005",
+                "typeName": "兴趣爱好",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "低",
+                        "value": "低"
+                    },
+                    {
+                        "key": "中",
+                        "value": "中"
+                    },
+                    {
+                        "key": "高",
+                        "value": "高"
+                    }
+                ]
+            },
+            {
+                "uid": "S0022",
+                "name": "商旅人士-城市偏好",
+                "version": "V0.0.1",
+                "typeUid": "T0005",
+                "typeName": "兴趣爱好",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "境外",
+                        "value": "境外"
+                    },
+                    {
+                        "key": "一线",
+                        "value": "一线"
+                    },
+                    {
+                        "key": "二线",
+                        "value": "二线"
+                    },
+                    {
+                        "key": "三线",
+                        "value": "三线"
+                    },
+                    {
+                        "key": "四线",
+                        "value": "四线"
+                    }
+                ]
+            },
+            {
+                "uid": "S0023",
+                "name": "旅行户外-自助游",
+                "version": "V0.0.1",
+                "typeUid": "T0005",
+                "typeName": "兴趣爱好",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "低",
+                        "value": "低"
+                    },
+                    {
+                        "key": "中",
+                        "value": "中"
+                    },
+                    {
+                        "key": "高",
+                        "value": "高"
+                    }
+                ]
+            },
+            {
+                "uid": "S0024",
+                "name": "旅行户外-旅行社",
+                "version": "V0.0.1",
+                "typeUid": "T0005",
+                "typeName": "兴趣爱好",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "低",
+                        "value": "低"
+                    },
+                    {
+                        "key": "中",
+                        "value": "中"
+                    },
+                    {
+                        "key": "高",
+                        "value": "高"
+                    }
+                ]
+            },
+            {
+                "uid": "S0025",
+                "name": "常驻城市",
+                "version": "V0.0.1",
+                "typeUid": "T0006",
+                "typeName": "常驻地",
+                "level": "1",
+                "valKVs": [
+                    {
+                        "key": "上海",
+                        "value": "上海"
+                    }
+                ]
+            }
+        ]
+    }
+}

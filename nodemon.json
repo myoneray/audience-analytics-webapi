@@ -1,0 +1,11 @@
+{
+	"ignore": [
+        "localtest/*",
+        "node_modules",
+        "README.md",
+        "public"
+    ],
+    "execMap": {
+	    "js": "./node_modules/.bin/babel-node"
+    }
+}

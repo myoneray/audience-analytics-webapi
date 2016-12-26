@@ -1,0 +1,25 @@
+{
+	"apps": [{
+		"name": "audienceWebapi",
+		"cwd": "/app/audience",
+		"script": "build/src/app.js",
+		"watch": false,
+		"env": {
+			"NODE_ENV": "development"
+		},
+		"env_production": {
+			"NODE_ENV": "production"
+		}
+	},{
+		"name": "syncAudienceWebapi",
+		"cwd": "/app/audience",
+		"script": "build/src/modules/bin/sync/sync.js",
+		"watch": false,
+		"env_production": {
+			"NODE_ENV": "production"
+		},
+		"env": {
+			"NODE_ENV": "development"
+		}
+	}]
+}
